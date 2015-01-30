@@ -36,12 +36,6 @@ class Emacs < Formula
     url "http://git.sv.gnu.org/r/emacs.git", :revision => "09ab6fedb2314ad1f6ef1cac8643e4b75d4798a2"
     depends_on "autoconf" => :build
     depends_on "automake" => :build
-
-    # inline patch for HEAD
-    patch :p1 do
-      url "https://raw.githubusercontent.com/suzuki/emacs-inline-patch/master/emacs-inline.patch"
-      sha1 "65e8ef2a0a0b26b368b1588f78619f0c5aca4e99"
-    end
   end
 
   option "cocoa", "Build a Cocoa version of emacs"
