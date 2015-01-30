@@ -33,7 +33,7 @@ class Emacs < Formula
   end
 
   head do
-    url "http://git.sv.gnu.org/r/emacs.git", :revision => "eadf313c72edcc3a11b9d03032699416efebfe1a"
+    url "http://git.sv.gnu.org/r/emacs.git", :revision => "be2d23e58721b7acc68c0ea654a38e5109df2aa2"
     depends_on "autoconf" => :build
     depends_on "automake" => :build
   end
